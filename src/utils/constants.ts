@@ -22,3 +22,49 @@ export const perks = [
       "We've pledged 1% of saled to the preservation and restoration of the natural environment",
   },
 ];
+
+export const PRODUCT_CATEGORIES = [
+  {
+    label: "UI Kits",
+    value: "ui_kits" as const,
+    featured: [
+      {
+        name: "Editor Picks",
+        href: "#",
+        imageSrc: "/assets/mixed.jpg",
+      },
+      {
+        name: "New Arrivals",
+        href: "#",
+        imageSrc: "/assets/blue.jpg",
+      },
+      {
+        name: "Best Sellers",
+        href: "#",
+        imageSrc: "/assets/blue.jpg",
+      },
+    ],
+  },
+
+  {
+    label: "Icons",
+    value: "icons" as const,
+    featured: [
+      {
+        name: "Favourite Icon Picks",
+        href: "#",
+        imageSrc: "/assets/picks.jpg",
+      },
+      {
+        name: "New Arrivals",
+        href: "#",
+        imageSrc: "/assets/new.jpg",
+      },
+      {
+        name: "Best Sellers",
+        href: "#",
+        imageSrc: "/assets/bestsellers.jpg",
+      },
+    ],
+  },
+];
